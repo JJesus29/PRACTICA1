@@ -1,0 +1,54 @@
+1. Diagramar una clase llamada producto, con sus atributos y operaciones.
+	CLASE 
+	Producto
+
+	ATRIBUTOS
+	precio
+	tipo
+	Color
+	Tamaño
+	
+
+	OPERACIONES
+	OFERTA
+	DESCUENTOS
+	
+	
+
+2. ¿Qué es un jar y para qué sirve?
+	Un jar es un tipo de archivo
+	sirve para ejecutar herramientas y aplicaciones Java
+
+3. ¿Qué es el patrón MVC?
+	Movimiento vista controlador 
+	Es un patron de arquitectura de software que separa la logica y los datos de una
+	aplicacion
+
+	
+
+4. Declarar un array y asignarle valores.
+
+	int num [];
+	num = new int[2,1,5];
+
+	
+4.1 ¿Cómo se obtiene el primer valor del array?
+	int num [] = new int []{1,3,5};
+        System.out.println("numero"+ num[0]);
+
+	
+	
+4.2 ¿y el último?
+	int num [] = new int []{1,3,5};
+        System.out.println("numero"+ num[num.length-1]);
+
+4.3 ¿Con qué estructura de control se itera/recorre un array? de un ejemplo.
+	String[] carros = {"Volvo", "BMW", "Ford", "Mazda"};
+	for (String i : carros) {
+  	System.out.println(i);
+	}
+
+
+5. En la empresa Apple Inc. necesitan un software para gestionar sus dispositivos, es necesario hacer un crud de la tabla dispositivo con lo campos, nombre, precio, tipo. Se tiene que mostrar la lista de productos y una opción para registrar, actualizar y borrar dispositivos.
+
+Usar Procedures para las operaciones CRUD.
